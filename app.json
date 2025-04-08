@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "ExpenseTrackerApp",
+    "slug": "ExpenseTrackerApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hrai_20.ExpenseTrackerApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "entryPoint": "index.js",
+    "extra": {
+      "eas": {
+        "projectId": "422fed09-c052-4d37-b970-b50de26c71cd"
+      }
+    }
+  }
+}

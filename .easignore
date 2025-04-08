@@ -1,0 +1,41 @@
+# Ignore platform-specific build directories
+android/
+ios/
+web-build/
+dist/
+build/
+
+# Node-related cache
+node_modules/.cache/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Git and version control
+.git/
+.gitignore
+
+# Expo/Metro cache
+.expo/
+.expo-shared/
+metro-cache/
+.expo/cache/
+
+# Logs
+*.log
+
+# Keystore or APKs (security & size)
+*.keystore
+*.jks
+*.apk
+*.aab
+
+# System folders that can cause issues
+**/AppData/
+**/Library/
+**/tmp/
+**/CertificateRevocation/
